@@ -504,15 +504,16 @@ function initComparisons() {
 		let typeTextStarted4 = false;
 		let typeTextStarted5 = false;
 		// Get the section<s position in the document
-		let FirstScroll = document.getElementById("#PWBegins").offset();
-		let SecondScroll = document.getElementById("#PWAutoItalia").offset();
-		let ThirdScroll = document.getElementById("#PWPersonal").offset();
-		let FourthScroll = document.getElementById("#WFSSection").offset();
-		let FifthScroll = document.getElementById("#WFSSection2").offset();
-		let EndSticky = document.getElementById("#PWPersonal").offset();
+				document.addEventListener('DOMContentLoaded', () => {
+		let FirstScroll = $("#PWBegins").offset()
+		let SecondScroll = $("#PWAutoItalia").offset()
+		let ThirdScroll = $("#PWPersonal").offset()
+		let FourthScroll = $("#WFSSection").offset()
+		let FifthScroll = $("#WFSSection2").offset()
+		let EndSticky = $("#PWPersonal").offset()
 		let viewportHeight = $(window).height();
 
-
+				
 
 window.addEventListener("scroll", () =>{
 
@@ -801,6 +802,8 @@ console.log("hello");
 		    // Set flag
 
 	  }
+		})
+
 		})
 
 		 window.onload = function() {
