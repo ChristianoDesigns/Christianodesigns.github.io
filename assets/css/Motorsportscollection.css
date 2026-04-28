@@ -1,0 +1,425 @@
+@import url(SnugVariable-CompressedThin.woff);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+@font-face {
+font-family: "SnugVariable-CompressedThin";
+src: url('SnugVariable-CompressedThin.woff') format(woff);
+}
+/*
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+h2 {
+font-family: Avenir;
+font-weight:100;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 125%;
+color: #141c2e;
+vertical-align: baseline;}
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+html {
+	background-color: #f5f5f5;
+}
+
+html, body {
+  height: auto;
+
+}
+
+a{
+	text-decoration: none;
+	color: #141c2e;
+}
+
+h2{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 5%;
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	text-align: center;
+}
+
+body {
+	margin: 0
+}
+
+#Navbar {
+	z-index: 9999;
+  position: fixed;
+	width: 100%;
+  top: 0;
+  overflow: hidden;
+	background-color: #FFFFFF88;
+	backdrop-filter: blur(6px);
+}
+
+#Navbar2 {
+	z-index: 10;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+	background-color: #141c2e;
+}
+
+#Navbar a, #Navbar2 a{
+	font-family: Avenir;
+	font-weight: medium;
+  float: left;
+	margin-left: 3%;
+  display: block;
+  text-align: center;
+  padding-top: 3%;
+	padding-bottom: 3%;
+  text-decoration: none;
+	color: #2d4171;
+}
+
+#Navbar2 a{
+	color: #141c2e;
+}
+
+#Navbar img, #Navbar2 img {
+	width: 10%;
+	margin-left: 45%;
+	height: 80%;
+	bottom: 10%;
+	top: 10%;
+	position: absolute;
+  display: flex;
+	cursor: pointer;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li a {
+  display: block;
+  color: #141c2e;
+  text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+  text-decoration: none;
+}
+
+#LeftNav li a{
+	float: right;
+	margin-right: 3%;
+	padding-top: 3.5%;
+
+
+}
+
+#LeftNav a{
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+
+
+
+.SidebarCont{
+	position: sticky;
+	top: 39%;
+	float: left;
+	 background-color: #f5f5f5;
+	 height: 100%;
+	 width: 35%;
+	 z-index: -99999
+
+}
+
+.Sidebar{
+	background-color: #f5f5f5;
+	height: 100%;
+	position: relative;
+	bottom: 36vh;
+	z-index: -99999;
+
+}
+
+
+.Work{
+	width: 65%;
+	height: 100%;
+	margin-left: 35%;
+
+
+}
+
+.FirstImage{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20%;
+}
+
+.NextImage{
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 1%;
+
+}
+
+.Header{
+	text-align: left;
+	margin-left: 10%;
+	padding-bottom: 1%;
+	font-size: 175%;
+	font-weight: bold;
+	color: #141c2e;
+	font-family: Avenir;
+}
+
+.Text{
+	padding-top: 3%;
+	text-align: left;
+	margin-left: 10%;
+	padding-bottom: 5%;
+	font-size: 105%;
+	font-weight: normal;
+	margin-right: 52%;
+	color: #141c2e;
+	font-family: Avenir;
+	font-weight: medium;
+}
+
+.Text.Bottom{
+	padding-bottom: 15%;
+
+}
+
+.ProjectText{
+	text-align: left;
+	margin-left: 10%;
+	padding-bottom: 5%;
+	font-size: 105%;
+	font-weight: normal;
+	margin-right: 5%;
+	color: #141c2e;
+	display: inline-block;
+	font-family: Avenir;
+	font-weight: medium;
+}
+
+.ProjectSubHeading{
+		display: inline-block;
+		font-weight: 900;
+	}
+
+.ProjectLogo{
+	width: 70%;
+	margin-left:	15%;
+	margin-top: 30%;
+	padding-bottom: 5%;
+}
+
+/* Slideshow */
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dotContainer{
+	text-align: center;
+	padding-bottom: 3%;
+	position: absolute;
+	margin-left: 45%;
+	margin-right: 45%;
+	width: 10%;
+	z-index: 99;
+	margin-top: 58%;
+}
+.active, .dot:hover {
+  background-color: #ffb8c8;
+}
+
+.fade {
+  animation-name: ;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+footer{
+background-color: white;
+	height: 30vh;
+	position: relative;
+	display: block;
+left: 0;
+bottom: 0;
+width: 100%;
+z-index: 999999;
+}
+
+footer div {
+	font-family: Avenir;
+	font-weight: medium;
+	display: block;
+  color: #2d4171;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+footer a {
+	display: block;
+	color: #2d4171;
+	text-decoration: none;
+	width: 44%;
+	margin-left: 56%;
+}
+
+footer a:hover {
+	color: #141c2e;
+}
+
+.left a{
+		margin-left: 0%;
+}
+
+.left{
+	margin-left: 10%;
+	width: 23.3333%;
+	text-align:left;
+	float:left;
+	line-height: 2;
+}
+.right{
+	margin-right: 10%;
+	width: 23.3333%;
+	text-align:right;
+	line-height: 2;
+	float:right;
+}
+.centered{
+	width: 33.3333%;
+	display: inline-block;
+	text-align: center;
+	 line-height: 2;
+}
+
+
+.Footerdiv{
+	height: 20%;
+	bottom: 0;
+	position: fixed;
+	background-color: white;
+}
+
+
+
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+
+
+
+		@media screen and (max-width: 1680px) {
+
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+	h2 {
+		font-size: 1.35em;
+		line-height: 1.75em;
+	}
+}
+
+		@media screen and (max-width: 736px) {
+
+			h2 {
+				font-size: 1.1em;
+				line-height: 1.65em;
+			}
+
+		}
+
+
+		@media screen and (max-width: 736px) {
+
+}
+		@media screen and (max-width: 1680px) {
+		}
+
+
+		@media screen and (max-width: 1280px) {
+}
+
+		@media screen and (max-width: 980px) {
+
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+
+
+		}

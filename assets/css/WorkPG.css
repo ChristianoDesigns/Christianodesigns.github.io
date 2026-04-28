@@ -1,0 +1,1875 @@
+@import url(SnugVariable-CompressedThin.woff);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+@font-face {
+font-family: "SnugVariable-CompressedThin";
+src: url('SnugVariable-CompressedThin.woff') format(woff);
+}
+/*
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+h2 {
+font-family: Avenir;
+font-weight:100;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 125%;
+color: #141c2e;
+vertical-align: baseline;}
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+html {
+	background-color: #f5f5f5;
+}
+
+html, body {
+  height: auto;
+
+}
+
+a{
+	text-decoration: none;
+	color: #141c2e;
+	font-size: 110%;
+}
+
+h2{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 5%;
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	text-align: center;
+}
+
+body {
+	margin: 0
+}
+
+#Navbar {
+	z-index: 9999;
+  position: fixed;
+	width: 100%;
+  top: 0;
+  overflow: hidden;
+	background-color: #FFFFFF88;
+	backdrop-filter: blur(6px);
+}
+
+#Navbar2 {
+	z-index: 10;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+	background-color: #141c2e;
+}
+
+#Navbar a, #Navbar2 a{
+	font-family: Avenir;
+	font-weight: medium;
+  float: left;
+	margin-left: 3%;
+  display: block;
+  text-align: center;
+  padding-top: 3%;
+	padding-bottom: 3%;
+  text-decoration: none;
+	color: #2d4171;
+}
+
+#Navbar2 a{
+	color: #141c2e;
+}
+
+#Navbar img, #Navbar2 img {
+	width: 10%;
+	margin-left: 45%;
+	height: 80%;
+	bottom: 10%;
+	top: 10%;
+	position: absolute;
+  display: flex;
+	cursor: pointer;
+  text-decoration: none;
+}
+
+ul.breadcrumb {
+  /* padding: 10px 16px; */
+  list-style: none;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 100%;
+  font-family: Avenir;
+font-weight:100;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #2d4171;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #141c2e;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li a {
+  display: block;
+  color: #141c2e;
+  text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+  text-decoration: none;
+	cursor: pointer;
+}
+
+#LeftNav li a{
+	float: right;
+	margin-right: 3%;
+	padding-top: 3.5%;
+
+
+}
+
+#LeftNav a{
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+
+
+
+.SidebarCont{
+	position: sticky;
+	top: 39%;
+	float: left;
+	 background-color: #f5f5f5;
+	 height: 100%;
+	 width: 35%;
+	 z-index: -99999
+
+}
+
+.Sidebar{
+	background-color: #f5f5f5;
+	height: 100%;
+	position: relative;
+	bottom: 430px;
+	z-index: -99999;
+
+}
+
+.WorkLanding{
+	background-color: #141c2e;
+	  width: 100%;
+	  margin-top: 7%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+.Slideshow{
+	display: flex;
+
+}
+
+#PrimaryWork{
+	height: 5019px;
+		top: 17%;
+	z-index: 0;
+			-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+
+}
+
+#PrimaryWorkTest{
+	height: 2270px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.BTS{
+	height: 1912px;
+	z-index: 0;
+
+}
+
+#PWBegins{
+	height: 0px;
+
+}
+#PWFiller{
+	height: 956px;
+
+}
+
+#PWFillertop{
+	height: 717px;
+
+}
+
+.LandingIMG{
+	  width: 105%;
+	  opacity: 40%;
+  height: 105%;
+  margin: -5px;
+	object-fit: cover;
+	filter: blur(5px);
+}
+
+
+
+.MainHeader{
+	margin-top: 7%;
+	position: sticky;
+	top: 17%;
+	height: 23%;
+	width: 100%;
+
+}
+
+.sticky-wrapper{
+	margin-top: 0%;
+	position: sticky;
+	top: 17%;
+	padding-bottom: 5%;
+}
+
+.SecondHeader{
+	margin-top: 2%;
+	height: 25%;
+	width: 100%;
+	background-color: #141c2e;
+
+}
+
+.ThirdHeader{
+	margin-top: 2%;
+	height: 25%;
+	width: 100%;
+	background-color: #49546d;
+
+}
+
+.FourthHeader{
+	margin-top: 2%;
+	height: 25%;
+	width: 100%;
+	background-color: #929db6;
+
+}
+
+.WorkSection{
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	overflow: hidden;
+}
+
+.BTSSection{
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	overflow: hidden;
+}
+
+
+.SecondSection{
+	width: 100%;
+	padding-bottom: 5%;
+	overflow: hidden;
+}
+
+.SecondSection a{
+	color: White;
+	font-family: Avenir;
+	font-weight: medium;
+}
+
+.WorkSection a{
+	color: #141c2e;
+	font-family: Avenir;
+	font-weight: medium;
+}
+
+.Body{
+	width: 33%;
+	margin-right: 8%;
+	margin-left: auto;
+
+}
+
+.BodyRight{
+	width: 33%;
+	margin-left: 8%;
+}
+
+.BodyRight a{
+	color: #141c2e;
+	font-family: Avenir;
+}
+
+.Pusher{
+	height: 100%;
+	top: 0%;
+}
+
+#PWEnding{
+
+}
+
+.Work{
+	z-index: -1000;
+
+}
+
+.spacer{
+	height: 239px;
+}
+
+.WorkFirstScreen{
+	width: 100%;
+	height: 1254px;
+}
+
+
+.WFSSticky{
+		width: 100%;
+		position: sticky;
+		top: 14%;
+}
+
+#WFSSection{
+	height: 155px;
+	top: 70%;
+	position: absolute;
+
+}
+#WFSSection2{
+	height: 155px;
+	top: 140%;
+	position: absolute;
+
+}
+
+.WFSSticky2{
+	width: 100%;
+	position: sticky;
+	top: 42%;
+}
+
+.WFSSticky3{
+	width: 100%;
+	position: sticky;
+	top: 52%;
+}
+
+.WorkLeftHeader{
+	font-family: Avenir;
+	font-weight: bold;
+	border: 0;
+	font-size: 250%;
+	color: #141c2e;
+}
+
+.WorkRightHeader{
+	font-family: Avenir;
+	font-weight: bold;
+	border: 0;
+	font-size: 250%;
+	color: #141c2e;
+}
+
+
+.LandingHeader{
+	font-family: Avenir;
+	font-weight: bold;
+	border: 0;
+	font-size: 700%;
+	position: absolute;
+	color: #141c2e;
+	z-index: 100;
+	text-align: center;
+	margin-left: 33%;
+	top: 40%;
+	width: 33%;
+
+}
+
+.WFSHeader{
+	font-family: Avenir;
+	font-weight: bold;
+	border: 0;
+	font-size: 1180%;
+	position: absolute;
+	color: #141c2e;
+	z-index: 100;
+	text-align: right;
+	margin-left: 26%;
+	top: 0;
+	width: 66%;
+
+}
+
+.WFS-container{
+	height: 1025px;
+	margin-top: -15%;
+}
+
+.WFS-container2{
+	height: 358px;
+	margin-top: -10%;
+}
+
+.WFSSubHeader{
+	font-family: Avenir;
+	font-weight: bold;
+	border: 0;
+	font-size: 400%;
+	position: absolute;
+	color: #141c2e;
+	z-index: 100;
+	text-align: center;
+	margin-left: 52%;
+	top: 0;
+	width: 40%;
+	opacity: 0%;
+	-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+}
+
+.WFSBody{
+	font-family: Avenir;
+	border: 0;
+	font-size: 125%;
+	position: absolute;
+	color: #141c2e;
+	z-index: 100;
+	text-align: justify;
+	margin-left: 52%;
+	top: 0;
+	width: 40%;
+	opacity: 0;
+	-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+}
+
+.Overlaycontainer {
+  	position: relative;
+  	height: 700px;
+	width: 36%;
+	margin-right: 7%;
+	float: right;
+}
+
+.Overlayimg {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Overlayimg img {
+  display: block;
+  vertical-align: middle;
+}
+
+.Overlayslider {
+  position: absolute;
+  z-index: 10;
+  cursor: ew-resize;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.OverlaysliderLine {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  width: 4px;
+  height: 700px;
+  background-color: white;
+  opacity: 1;
+}
+
+
+
+#WFSimg {
+	margin-left: 0%;
+	position: absolute;
+	width: 100%;
+	float: left;
+	height: 2560px;
+	background-image: url("../../images/WorkFirstScreenD.png");
+	background-repeat:no-repeat;
+   background-size:contain;
+}
+
+
+#WorkLeftimg {
+	top: 20%;
+	margin-left: 8%;
+	width: 44%;
+	float: left;
+	height: 510px;
+	object-fit: cover;
+}
+
+#WorkRightimg {
+	top: 20%;
+	height: 700px;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+
+.WorkLeftSubHeader{
+	font-family: Avenir;
+	font-weight: 100;
+	border: 0;
+	font-size: 125%;
+	color: #141c2e;
+	line-height: 2.5;
+
+}
+
+.WorkRightSubHeader{
+	font-family: Avenir;
+	font-weight: 100;
+	border: 0;
+	font-size: 125%;
+	color: #141c2e;
+	line-height: 2.5;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 8%;
+  width: calc(84% + 20px);
+  margin-bottom: 10%;
+}
+.container div {
+  padding: 20px 20px 0px 0px;
+}
+
+.FirstImage{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20%;
+}
+
+.IMGPanel{
+	width: 100%;
+	display: block;
+}
+
+.ContTitle{
+	width: 33%;
+    margin-left: 8%;
+	overflow: hidden;
+	color: #141c2e;
+	font-family: Avenir;
+	font-weight: medium;
+
+}
+
+
+
+.NextImage{
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 1%;
+
+}
+
+.Header{
+	text-align: left;
+	margin-left: 2%;
+	font-size: 150%;
+	color: #141c2e;
+	font-family: Avenir;
+}
+
+.Text{
+	padding-top: 3%;
+	text-align: left;
+	margin-left: 10%;
+	padding-bottom: 5%;
+	font-size: 105%;
+	font-weight: normal;
+	margin-right: 52%;
+	color: #141c2e;
+	font-family: Avenir;
+	font-weight: medium;
+}
+
+.Text.Bottom{
+	padding-bottom: 15%;
+
+}
+
+.ProjectText{
+	text-align: left;
+	margin-left: 10%;
+	padding-bottom: 5%;
+	font-size: 105%;
+	font-weight: normal;
+	margin-right: 5%;
+	color: #141c2e;
+	display: inline-block;
+	font-family: Avenir;
+	font-weight: medium;
+}
+
+.ProjectSubHeading{
+		display: inline-block;
+		font-weight: 900;
+	}
+
+.ProjectLogo{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 35%;
+	padding-bottom: 5%;
+}
+
+/* Slideshow */
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dotContainer{
+	text-align: center;
+	padding-bottom: 3%;
+	position: absolute;
+	margin-left: 45%;
+	margin-right: 45%;
+	width: 10%;
+	z-index: 99;
+	margin-top: 58%;
+}
+.active, .dot:hover {
+  background-color: #ffb8c8;
+}
+
+.fade {
+
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.Lightbox{
+	width: 756px;
+	height: 100%;
+	/* margin-left: 60%; */
+	right: 0%;
+	float: right;
+	position: fixed;
+	background-color: #f5f5f5;
+	backdrop-filter: blur(6px);
+	z-index: 10001;
+	opacity: 0;
+	visibility: hidden;
+	transition: visibility 0s, opacity 0.4s linear;
+}
+
+.LightboxAbout{
+	width: 756px;
+	height: 100%;
+	margin-left: 0%;
+	position: fixed;
+	background-color: #f5f5f5;
+	backdrop-filter: blur(6px);
+	z-index: 10001;
+	opacity: 0;
+	visibility: hidden;
+	transition: visibility 0s, opacity 0.4s linear;
+}
+
+.PhoneModeMenu{
+	width: 756px;
+	height: 100%;
+	/* margin-left: 60%; */
+	left: 0%;
+	float: left;
+	position: fixed;
+	background-color: #f5f5f5;
+	backdrop-filter: blur(6px);
+	z-index: 10000;
+	opacity: 0;
+	visibility: hidden;
+	transition: visibility 0s, opacity 0.4s linear;
+}
+.icon {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.Lightboxback{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #00000080;
+	backdrop-filter: blur(6px);
+	z-index: 10000;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transition: visibility 0s, opacity 0.4s linear;
+}
+
+.LightboxHeader{
+	font-family: Avenir;
+	font-size: 200%;
+	text-align: left;
+	display: block;
+	margin-top: 10%;
+	margin-left: 15%;
+	text-decoration: none;
+	color: #141c2e;
+
+}
+
+.LightboxSubHeader{
+	font-family: Avenir;
+	font-size: 125%;
+	text-align: left;
+	display: block;
+	margin-left: 15%;
+	text-decoration: none;
+	color: #141c2e;
+
+}
+
+.LightboxText{
+	font-family: Avenir;
+	font-size: 110%;
+	text-align: left;
+	display: block;
+	width: 70%;
+	margin-bottom: 3%;
+	margin-left: 15%;
+	text-decoration: none;
+	color: #141c2e;
+}
+
+input, button, select, textarea, label{
+	font-family: Avenir;
+
+}
+
+button {
+  cursor: pointer;
+  background-color: #141c2e;
+  color: white;
+  padding: 1em 1.5em;
+  border: 0;
+  width: 49%;
+  border-radius: 3pt;
+  display: -webkit-inline-box;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &:hover,
+  &:focus-visible {
+    background-color: #2d4171;
+  }
+}
+
+#result{
+	width: 44%;
+	margin-left: 6%;
+	display: inline-block;
+	font-family: avenir;
+	text-align: center;
+	font-size: 110%;
+}
+
+form {
+	display: grid;
+	margin-left: 15%;
+	width: 70%;
+	gap: 5%;
+	margin-top: 5%;
+}
+
+.RequiredStar{
+	color: red;
+}
+.form-group {
+}
+
+input {
+  background: white;
+  color: var(--text-1);
+  border: 1px solid #dddddd;
+  padding: 2% 2%;
+  width: 100%;
+  border-radius: 3pt;
+  margin-top: 2%;
+}
+
+input:focus{
+  border: 2px solid #141c2e;
+  outline: none;
+}
+
+
+textarea {
+  background: white;
+  color: var(--text-1);
+  border: var(--border);
+  padding: 2% 2%;
+  width: 100%;
+  height: 119px;
+  border: 1px solid #dddddd;
+  border-radius: 3pt;
+  margin-top: 2%;
+}
+
+label{
+	font-size: 100%;
+	margin-bottom: 2%;
+}
+
+.FindmeLogo{
+	width: 10%;
+	display: block;
+	padding-right: 5%;
+}
+
+.FindmeLogoBlue{
+	width: 10%;
+	display: block;
+	padding-right: 5%;
+}
+
+.FindmeLogo:hover{
+	opacity: 0;
+		-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+
+.ProfilePic{
+	width: 70%;
+	display: inline-block;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+footer{background-color: #ffffff;height: 358px;display: flex;font-size: 90%;position: relative;z-index: 9999;}
+
+
+.Footer{
+	height: 100%;
+
+
+}
+
+footer div {
+	font-family: Avenir;
+	font-weight: medium;
+	display: block;
+  color: #141c2e;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+footer a {
+	display: block;
+	color: #141c2e;
+	text-decoration: none;
+	width: 100%;
+}
+
+.Copyright{
+	width: 100%;
+	margin-top: 10%;
+
+}
+
+footer a:hover {
+	color: #2e4172;
+}
+
+.left a{
+		margin-left: 0%;
+}
+
+.left{
+	margin-left: 10%;
+	width: 23.3333%;
+	text-align:left;
+	float:left;
+	line-height: 2;
+}
+.right{
+	margin-right: 10%;
+	width: 23.3333%;
+	text-align:right;
+	line-height: 2;
+	float:right;
+}
+.centered{
+	width: 33.3333%;
+	display: inline-block;
+	text-align: center;
+	 line-height: 2;
+}
+.centered a{
+	text-align: center;
+	 line-height: 2;
+}
+
+
+
+@media all and (max-width: 5000px) {
+	#WorkLeftimg{
+	height: 700px;
+}
+			#WorkLeftimg {
+				top: 20%;
+				margin-left: 8%;
+				width: 44%;
+				float: left;
+}
+
+.MainHeader{
+	margin-top: 5%;
+	width: 100%;
+}
+
+.SecondHeader{
+	margin-top: 0%;
+	height: 20%;
+	width: 100%;
+
+}
+
+.ThirdHeader{
+	margin-top: 0%;
+	height: 20%;
+	width: 100%;
+
+}
+
+.FourthHeader{
+	margin-top: 0%;
+	height: 20%;
+	width: 100%;
+
+}
+
+
+		}
+
+		@media all and (max-width: 2489px) {
+.WFSSubHeader{
+	font-size: 360%;
+
+}
+				}
+
+		@media all and (max-width: 2250px) {
+.WFSHeader{
+	font-size: 980%;
+
+}
+
+#WorkLeftimg{
+	height: 510px;
+}
+
+.WFSSubHeader{
+	font-size: 350%;
+}
+
+.Overlaycontainer{
+	height: 634px;
+		width: 40%;
+	margin-right: 7%;
+}
+
+.Overlayimg{
+	width: 100%;
+
+}
+
+#WorkRightimg{
+	height: 634px;
+
+}
+
+.OverlaysliderLine{
+	height: 634px;
+
+}
+}
+
+@media all and (max-width: 2180px) {
+	.WFSSubHeader{
+	font-size: 320%;
+}
+
+}
+
+		@media all and (max-width: 2000px) {
+			.container {
+  grid-template-columns: auto auto auto;
+}
+
+
+.WFSSticky3{
+	top: 49%;
+}
+
+.WFS-container2{
+	margin-top: -11%;
+}
+
+.WFSHeader{
+	font-size: 880%;
+
+}
+
+.WFSSubHeader{
+	font-size: 300%;
+}
+
+.WFSBody{
+	font-size: 120%;
+}
+
+.WFS-container2{
+	height: 413px;
+
+}
+
+.Overlaycontainer{
+	height: 634px;
+	width: 43%;
+	margin-right: 6%;
+}
+
+.Overlayimg{
+	width: 100%;
+
+}
+
+#WorkRightimg{
+	height: 634px;
+
+}
+
+.OverlaysliderLine{
+	height: 634px;
+
+}
+
+.MainHeader{
+	top: 19%;
+}
+
+.sticky-wrapper{
+	top: 21%;
+}
+
+}
+
+		@media all and (max-width: 1869px) {
+
+a{
+	font-size: 100%;
+}
+
+.WFSSticky2{
+	top: 34%;
+}
+
+.WFSSticky3{
+	top: 42%;
+}
+
+.WFS-container{
+	margin-top: -20%;
+}
+
+.WFS-container2{
+	margin-top: -20%;
+	height: 604px;
+}
+
+.WFSHeader{
+	font-size: 840%;
+
+}
+
+.WFSSubHeader{
+	font-size: 285%;
+}
+
+.WFSBody{
+	font-size: 110%;
+}
+
+
+.Overlaycontainer{
+	height: 634px;
+	width: 43%;
+	margin-right: 6%;
+}
+
+.Overlayimg{
+	width: 100%;
+
+}
+
+#WorkRightimg{
+	height: 616px;
+
+}
+
+.OverlaysliderLine{
+	height: 616px;
+
+}
+
+.MainHeader{
+	top: 17%;
+}
+
+.sticky-wrapper{
+	top: 16%;
+}
+
+}
+
+@media all and (max-width: 1780px) {
+
+	.WFS-container2{
+	height: 370px;
+}
+
+	.WFSSubHeader{
+	font-size: 240%;
+}
+
+
+.Overlaycontainer{
+	height: 634px;
+	width: 43%;
+	margin-right: 6%;
+}
+
+
+#WorkRightimg{
+	height: 588px;
+
+}
+
+.OverlaysliderLine{
+	height: 588px;
+
+}
+}
+
+@media all and (max-width: 1600px) {
+
+#WorkRightimg{
+	height: 528px;
+
+}
+
+.OverlaysliderLine{
+	height: 528px;
+
+}
+}
+@media all and (max-width: 1500px) {
+
+.WFS-container{
+	margin-top: -30%;
+}
+
+.WFSHeader{
+	font-size: 720%;
+}
+
+.MainHeader{
+	top: 14%;
+}
+
+.WFS-container2{
+	height: 466px;
+}
+
+.WFSSubHeader{
+	font-size: 224%;
+}
+
+
+#WorkRightimg{
+	height: 496px;
+
+}
+
+.OverlaysliderLine{
+	height: 496px;
+
+}
+}
+
+
+@media all and (max-width: 1400px) {
+#PrimaryWorkTest{
+	height: 2173px;
+}
+
+#WorkLeftimg {
+	top: 20%;
+	margin-left: 8%;
+	width: 44%;
+	float: left;
+	height: 540px;
+}
+
+.WFS-container2{
+	margin-top: -35%;
+}
+
+.WFS-container2{
+	margin-top: -30%;
+}
+
+.WFSHeader{
+	font-size: 670%;
+}
+
+.WFSSubHeader{
+	font-size: 209%;
+}
+.MainHeader{
+	top: 5%;
+}
+
+#WorkRightimg {
+	height: 445px;
+}
+
+.OverlaysliderLine{
+	height: 445px;
+
+}
+
+.SecondHeader{
+	margin-top: 0%;
+	height: 20%;
+	width: 100%;
+
+}
+
+.ThirdHeader{
+	margin-top: 0%;
+	height: 20%;
+	width: 100%;
+
+}
+
+.FourthHeader{
+	margin-top: 0%;
+	height: 20%;
+	width: 100%;
+
+}
+
+.WorkSection{
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	overflow: hidden;
+}
+
+.SecondSection{
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	overflow: hidden;
+}
+
+
+		}
+
+		@media all and (max-width: 1305px) {
+			.WFSBody{
+				margin-left: 8%;
+				width: 84%;
+				font-size: 100%;
+			}
+			.Body{
+				width: 84%;
+				margin-left: 8%;
+				margin-top: 47%;
+}
+	.BodyRight{
+		margin-left: 8%;
+		margin-top: 57%;
+		width: 84%;
+	}
+	.WFSSticky3{
+		top: 41%;
+	}
+	.WFS-container2{
+		margin-top: -24%;
+		height: 509px;
+	}
+	.WFSSubHeader{
+		font-size: 210%;
+		width: 50%;
+		margin-left: 42%;
+		text-align: right;
+	}
+	#PrimaryWorkTest{
+		height: 2720px;
+	}
+	#WorkLeftimg{
+		width: 84%;
+		margin-left: 8%;
+	}
+	.MainHeader{
+		top: 5%;
+	}
+	.WorkText{
+		display: flex;
+		gap: 4%;
+	}
+	.WorkText1{
+		width: 50%;
+	}
+	.BTS{
+		height: 3022px;
+	}
+	.BTSSection{
+		padding-top: 12%;
+	}
+	.sticky-wrapper{
+		top: 0%;
+	}
+	.Overlaycontainer{
+		height: 665px;
+		width: 66%;
+		margin-right: 16.5%;
+	}
+	#WorkRightimg{
+		height: 665px;
+	}
+	.OverlaysliderLine{
+		height: 665px;
+	}
+	.ContTitle{
+		width: 84%;
+	}
+			#WorkLeftimg {
+				margin-left: 10%;
+				width: 80%;
+				padding-bottom: 4%;
+				float: left;
+}
+}
+
+		@media all and (max-width: 1200px) {
+			.WFSHeader{
+		font-size: 620%;
+	}
+
+		#Navbar a, #Navbar2 a{
+			margin-left: 5%;
+			padding-top: 5%;
+			padding-bottom: 5%;
+		}
+		#LeftNav li a{
+			margin-right: 7%;
+			padding-top: 7%;
+		}
+		a{
+			font-size: 110%;
+		}
+		.WFSHeader{
+			font-size: 620%;
+		}
+		.WFS-container2{
+			margin-top: -27%;
+		}
+		}
+		@media all and (max-width: 1200px) {
+			.Body{
+	width: 80%;
+	margin-left: 10%;
+}
+			#WorkLeftimg {
+				margin-left: 10%;
+				width: 80%;
+				padding-bottom: 4%;
+				float: left;
+}
+}
+
+		@media (max-width: 1167px) {
+			.WorkFirstScreen{
+				height: 1086px;
+			}
+			.WorkRightHeader{
+				font-size: 230%;
+			}
+			.WorkLeftHeader{
+				font-size: 230%;
+			}
+			.WFS-container{
+				height: 1087px;
+			}
+			.WFSSticky2{
+				top: 23%;
+			}
+			.BodyRight {
+				margin-top: 63%;
+			}
+			.WFSSticky3{
+				top: 27%;
+			}
+			#PrimaryWorkTest{
+				height: 2090px;
+			}
+			.WFSHeader{
+				font-size: 580%;
+			}
+			.WFS-container2{
+				margin-top: -29%;
+			}
+			#WorkLeftimg {
+				margin-left: 10%;
+				width: 80%;
+				padding-bottom: 4%;
+				float: left;
+}
+}
+
+		@media all and (max-width: 1167px) {
+			
+	.WFSSubHeader{
+		font-size: 190%;
+		width: 50%;
+		margin-left: 42%;
+		text-align: right;
+	}
+
+
+.Copyright{
+	width: 200%;
+	margin-top: 10%;
+
+}
+
+	.WorkText{
+		display: flex;
+		gap: 4%;
+		font-size: 90%;
+	}
+
+
+	.sticky-wrapper{
+		top: 4%;
+	}
+
+	
+	.Overlaycontainer{
+		height: 515px;
+		width: 66%;
+		margin-right: 16.5%;
+	}
+
+
+	#WorkRightimg{
+		height: 515px;
+	}
+	.OverlaysliderLine{
+		height: 515px;
+	}
+
+
+	.BodyRight {
+				margin-top: 60%;
+	}
+	.WFSHeader{
+				font-size: 520%;
+			}
+			.WFS-container2{
+				margin-top: -45%;
+			}
+	
+		}
+
+		@media all and (max-width: 950px) {
+			.spacer{
+				height: 0%;
+			}
+			.WFSSticky{
+				top: 12%;
+			}
+			.WFS-container{
+				margin-top: -12%;
+			}
+			#WorkLeftimg {
+				height: 510px;
+			}
+			.WFS-container2{
+				height: 227px;
+			}
+			.WorkFirstScreen{
+				height: 466px;
+			}
+			.WFS-container{
+				height: 621px;
+			}
+			.WFSSticky2{
+				top: 20%;
+			}
+			.WFSSticky3{
+				top: 24%;
+			}
+			#PrimaryWorkTest{
+				height: 1303px;
+			}
+			.WFSSubHeader{
+				font-size: 154%;
+			}
+			.Overlaycontainer{
+				width: 75%;
+				margin-right: 11.5%;
+			}
+			#WorkRightimg{
+				height: 495px;
+			}
+			.OverlaysliderLine{
+				height: 495px;
+			}
+			.BodyRight{
+				margin-top: 70%;
+			}
+			.WFSHeader{
+				font-size: 390%;
+			}
+			.WFS-container2{
+				margin-top: -23%;
+			}
+			#Navbar img, #Navbar2 img{
+				width: 20%;
+				margin-left: 40%;
+			}
+
+}
+
+		@media all and (max-width: 768px) {
+			    .WorkText1 {
+        /* width: 50%; */
+    }
+	  .WFSSubHeader {
+        width: 70%;
+        margin-left: 22%;
+    }
+	.WorkText {
+        display: block;
+	}
+	 .WFSSticky {
+        top: 11%;
+	 }
+	  .WFSSticky2 {
+        top: 18%;
+    }
+	 .WFSSubHeader {
+        font-size: 130%;
+    }
+	.Overlaycontainer {
+        width: 76%;
+        margin-right: 11%;
+        height: 435px;
+	}
+	 #WorkRightimg {
+        height: 437px;
+    }
+	#WorkLeftimg {
+        height: 430px;
+    }
+	 .OverlaysliderLine {
+        height: 405px;
+    }
+	  .BodyRight {
+        margin-top: 60%;
+    }
+    .WFSHeader {
+        font-size: 295%;
+    }
+    .WFS-container2 {
+        margin-top: -24%;
+    }
+	.WorkRightHeader{
+		font-size: 200%;
+	}
+	.WorkLeftHeader{
+		font-size: 200%;
+	}
+	.WFS-container{
+		height: 430px;
+	}
+	.OverlaysliderLine{
+		height: 437px;
+	}
+	
+
+			.container {
+  grid-template-columns: auto auto;
+}
+		}
+		@media all and (max-width: 600px) {
+			.Body{
+				margin-top: 55%;
+			}
+			#WorkLeftimg{
+				padding-bottom: 2%;
+				height: 340px;
+			}
+			.Overlaycontainer{
+				height: 355px;
+			}
+			#WorkRightimg{
+				height: 337px;
+			}
+			.BodyRight{
+				margin-top: 42%;
+			}
+			.WorkRightHeader{
+				font-size: 180%;
+			}
+			.WorkLeftHeader{
+				font-size: 180%;
+			}
+			.OverlaysliderLine{
+				height: 337px;
+			}
+
+			.WFSHeader{
+				text-align: center;
+				margin-left: 8%;
+				width: 84%;
+				font-size: 255%;
+			}
+			#WFSimg{
+				display: none;
+			}
+			.WFSBody{
+				font-size: 100%;
+			}
+			.WFS-container {
+        		margin-top: -16%;
+   			}
+			    .WFS-container2 {
+        height: 218px;
+		margin-top: -20%;
+    }
+    .WorkFirstScreen {
+        height: 478px;
+    }
+    .WFS-container {
+        height: 514px;
+    }
+	  #PrimaryWorkTest {
+        height: 1204px;
+    }
+	.WFSSubHeader{
+		width: 84%;
+		margin-left: 8%;
+		text-align: center;
+	}
+
+
+			.container {
+  grid-template-columns: auto;
+}
+		@media all and (max-width: 750px) {
+			#PhoneMode{
+				display: none;
+			}
+			.MainHeader{
+				height: 14%;
+			}
+			.WFSBody{
+				text-align: center;
+			}
+			footer{
+				font-size: 80%;
+			}
+			.centered{
+				opacity: 0;
+				pointer-events: none;
+  				cursor: default;
+			}
+			#Navbar a, #Navbar2 a{
+				opacity: 0;
+				pointer-events: none;
+  				cursor: default;
+			}
+			.WorkText{
+				font-size: 80%;
+			}
+			.WFSSticky3{
+				top: 30%;
+			}
+			 .WFSSticky {
+        top: 17%;
+    }
+    .WFSSticky2 {
+        top: 25%;
+    }
+
+    .WFS-container {
+        margin-top: -15%;
+    }
+    .WFS-container2 {
+        margin-top: -33%;
+    }
+    .WFS-container {
+        height: 490px;
+    }
+
+}
+		@media all and (max-width: 380px) {
+			.WorkLeftSubHeader{
+				font-size: 105%;
+				line-height: 2;
+		}
+		.WorkRightSubHeader{
+			font-size: 105%;
+			line-height: 2;
+		}
+		.WFSSubHeader{
+			font-size: 120%;
+		}
+		#WorkLeftimg {
+        height: 270px;
+    }
+    .Overlaycontainer {
+        height: 265px;
+    }
+    #WorkRightimg {
+        height: 265px;
+    }
+    .BodyRight {
+        margin-top: 76%;
+    }
+    .WorkRightHeader {
+        font-size: 170%;
+    }
+    .WorkLeftHeader {
+        font-size: 170%;
+    }
+    .OverlaysliderLine {
+        height: 265px;
+    }
+	#PrimaryWorkTest{
+		height: 1304px;
+	}
+	.WFS-container2{
+		margin-top: -50%;
+	}
+}
+}

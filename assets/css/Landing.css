@@ -1,0 +1,110 @@
+@import url(SnugVariable-CompressedThin.woff);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+@font-face {
+font-family: "SnugVariable-CompressedThin";
+src: url('SnugVariable-CompressedThin.woff') format(woff);
+}
+/*
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+h2 {
+font-family: Avenir;
+font-weight:100;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 125%;
+color: white;
+vertical-align: baseline;}
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+html {
+	background-color: #e72829;
+	height: 1vh;
+	overflow: hidden;
+}
+
+h2{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 5%;
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	text-align: center;
+}
+
+.logo{
+	width: 40%;
+	height: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+
+
+		@media screen and (max-width: 1680px) {
+
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+	h2 {
+		font-size: 1.35em;
+		line-height: 1.75em;
+	}
+}
+
+		@media screen and (max-width: 736px) {
+
+			h2 {
+				font-size: 1.1em;
+				line-height: 1.65em;
+			}
+
+		}
+
+
+		@media screen and (max-width: 736px) {
+
+}
+		@media screen and (max-width: 1680px) {
+		}
+
+
+		@media screen and (max-width: 1280px) {
+}
+
+		@media screen and (max-width: 980px) {
+
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+
+
+		}
