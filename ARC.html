@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Christiano.Designs</title>
+		<link rel="icon" href="images/Test1.svg" type="image/svg+xml" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/ARC.css" />
+	</head>
+	<body class="landing is-preload" >
+		<ul id="Navbar">
+		  	<li><a href="about.asp">About</a></li>
+		  	<li><a href="work.html">Work</a></li>
+				<img src="images/logoBlue.svg" onclick="window.location.href='Home1.html';"></img>
+			<ul id="LeftNav">
+		  	<li><a href="contact.asp">Contact</a></li>
+			</ul>
+		</ul>
+		<div class="SidebarCont">
+		<div class="Sidebar">
+			<img class="ProjectLogo" src="images/ARCLogo.png"></img>
+			<div class="ProjectText"> A set of collateral pieces designed around the cars competing in the Rally of Canberra.
+				<br><br>
+				<div class = "ProjectSubHeading">Client:</div> Australian Rally Championship
+				<br><br>
+				<div class = "ProjectSubHeading">Project:</div> Rally of Canberra Promotional
+				<br><br>
+				<div class = "ProjectSubHeading">Year:</div> 2025
+				<br><br>
+				<div class = "ProjectSubHeading">Type:</div> Brand Collateral
+				<br><br>
+				<div class = "ProjectSubHeading">Colours:</div> CMYK
+
+			</div>
+		</div>
+	</div>
+		<div class="Work">
+			<img class="FirstImage" src="images/ARCFirstImage.jpg"></img>
+			<div class="Text">Capturing the war memorial within a symbol was difficult as there
+				are many sensitive factors to be considered. The premise of the design was to work
+				 with the poem by John McCrae In Flanders Fields, particularly focusing on the imagery
+				 in first line through the use of poppies scattered between the crosses.</div>
+				<div id="Header" class="Header">Colour Variations</div>
+			<div class="slideshow-container">
+				<div class="dotContainer">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+						<div class="mySlides fade">
+						<img src="images/ARCNextImage.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+						<img src="images/ARCNextImage2.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<img src="images/ARCNextImage3.jpg" style="width:100%">
+			</div>
+
+		</div>
+				<div class="Text Bottom">
+					These variations show the flexiblity of the symbol. Working to make the
+					poppies visable in the black and white variation was a challenge however
+					I think the result is effective.
+			</div>
+
+			<div class="Header">Social media collateral</div>
+			<img class="NextImage" src="images/ARCNextImage4.jpg"></img>
+			<div class="Text Bottom">
+			This is the box dieline which includes the use of bleeds,
+			 cut and fold lines. The dieline shows how the whole packaging
+				works together to create a strong identity.
+		</div>
+
+		<div class="Header">Poster collateral</div>
+		<img class="NextImage" src="images/ARCNextImage2.jpg"></img>
+		<div class="Text Bottom">
+		This is the box dieline which includes the use of bleeds,
+		 cut and fold lines. The dieline shows how the whole packaging
+			works together to create a strong identity.
+	</div>
+
+
+
+
+		</div>
+
+
+			<Footer>
+				<div class="left">
+					<a href="about.asp">About </a>
+			  	<a href="Work.html">Work </a>
+				</div>
+				<div class="centered"><b>Contact</b><br>Chrissanchez2430@gmail.com<br>0472 983 742<br>Copyright © Christiano Designs 2025</div>
+    		<div class="right"><b>Socials</b>
+					<a href="https://www.instagram.com/christiano.designs/">Instagram </a>
+					<a href="https://x.com/Christianodesgn">Twitter (X) </a>
+					<a href="https://www.linkedin.com/in/chris-sanchez-56b10b293/">LinkedIn </a>
+			</Footer>
+
+
+
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+		let slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		 	let i;
+		  let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("dot");
+
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";
+				dots[i].classList.remove('active');
+		  }
+		  slideIndex++;
+		 	if (slideIndex > slides.length) {slideIndex = 1}
+		 	slides[slideIndex-1].style.display = "block";
+			dots[slideIndex-1].classList.add('active');
+	  	setTimeout(showSlides, 3000);
+
+		}
+			</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+</html>
