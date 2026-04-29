@@ -18,7 +18,7 @@
 		  	<li><a onclick="OpenLightboxAbout()">About</a></li>
 		  	<li><a href="work.html">Work</a></li>
 			<li><a href="https://christianodesignsau.etsy.com">Store</a></li>
-				<img class="Navlogo" src="images/logoBlue.svg" onclick="window.location.href='Home1.html';"></img>
+				<img class="Navlogo" src="images/logoBlue.svg" onclick="window.location.href='index.html';"></img>
 			<ul id="LeftNav">
 		  	<li><a onclick="OpenLightbox()">Contact</a></li>
 			</ul>
@@ -204,8 +204,8 @@
 
 
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<script type="text/javascript" type="module">
+			window.addEventListener("scroll", () =>{
 		// Flag to execute the function only once
 		let r = Math.floor((Math.random() * 10) + 1);
 		// Flag to execute the function only once
@@ -567,6 +567,7 @@ form.addEventListener('submit', function(e) {
                 
             }, 3000);
         });
+	})
 });
 		</script>
 		<!-- Scripts -->
